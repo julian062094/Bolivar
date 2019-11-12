@@ -1,0 +1,24 @@
+{
+  "name": "bolivar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "sass": "^1.23.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass src/scss/estilos.scss src/css/estilos.css --w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julian062094/Bolivar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julian062094/Bolivar/issues"
+  },
+  "homepage": "https://github.com/julian062094/Bolivar#readme"
+}
