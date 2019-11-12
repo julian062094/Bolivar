@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile:sass": "node-sass src/scss/estilos.scss src/css/estilos.css --w"
+    "compile:sass": "node-sass src/assets/scss/estilos.scss src/assets/css/estilos.css --w"
   },
   "repository": {
     "type": "git",
