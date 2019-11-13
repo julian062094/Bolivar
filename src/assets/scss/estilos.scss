@@ -4,12 +4,6 @@ body {
     padding: 0;
   }
 
-$mycolor: blue;
-
-
-.prueba {
-    background-color:$mycolor;
-}
 
 .contc {
     display: grid;
@@ -183,7 +177,6 @@ span {
     border-radius: 15px;
     opacity: 1;
     z-index: 2;
-    
 }
 .arro1 {
     position: absolute;
@@ -579,6 +572,7 @@ span {
       font-size: 18px;
       width: 70%;
     }
+    
     
     .textContainer4-2-1 {
       padding: 5% 15% 5% 10%;
