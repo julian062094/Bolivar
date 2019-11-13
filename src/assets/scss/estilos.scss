@@ -239,11 +239,10 @@ span {
    .contenec2 {
        display: none;
    }
-    .cali {
- /*        width: 123%; */
-    }
-    
   }
+  
+    
+  
   
   
   @media (min-width: 1025px) and (max-width: 1280px) {
@@ -381,10 +380,12 @@ span {
     justify-content: space-between;
     margin: 3% auto;
     padding: 0% 10% 0% 10%;
+    flex-wrap: wrap;
 }
 
 
 .box{
+    box-shadow: 0px 10px 30px #00000026;
     border-radius: 15px;
     width: 236px;
     height: 317px;
@@ -506,6 +507,16 @@ span {
     font-weight: bold;
     letter-spacing: 0.79px;
   }
+  .valorare{
+    font-family: roboto, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.79px;
+    margin: 0 !important;
+  } 
+  
   .subtitu{
     margin: 0;
     font-size: 18px;
@@ -515,10 +526,28 @@ span {
     font-family: roboto, sans-serif;
     letter-spacing: 0.79px;
   }
-  .precio{
+  .precioj{
     display: flex;
     justify-content: space-between;
     padding: 10%;
+  }
+  .areatot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10% 10% 5%;
+  }
+  .subarea{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desde{
+    padding: 0% 8% 4% 4%;
+  }
+  .hasta{
+    padding: 0% 4% 4% 8%;
+    border-left: #ffffff 1px solid ;
+    
   }
 
 
