@@ -1,2 +1,155 @@
-.prueba {
-  background-color: blue; }
+.title_hero3 {
+  color: #056232;
+  font-size: 20px;
+  font-family: roboto, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
+  .title_hero3 h1 {
+    margin: 0 !important; }
+
+.bigcont {
+  margin: 0;
+  width: auto;
+  height: 700px;
+  padding-bottom: 3%; }
+
+.hero3 {
+  padding-top: 1%;
+  color: #504741;
+  font-size: 15px; }
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% auto;
+  padding: 0% 10% 0% 10%; }
+
+.box {
+  border-radius: 15px;
+  width: 236px;
+  height: 317px;
+  background: transparent linear-gradient(179deg, #0B0B0B00 0%, #25252500 24%, #111111A4 46%, #0B0B0BCE 100%) 0% 0% no-repeat padding-box; }
+
+.othercont {
+  padding-left: 7%;
+  padding-top: 3%; }
+
+.boton {
+  display: flex;
+  justify-content: center; }
+
+.botonst {
+  border: 2px solid #037F43;
+  border-radius: 25px;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  color: #037F43;
+  padding: 1% 2% 1% 2%;
+  width: 326px;
+  height: 50px;
+  margin-top: 2%; }
+
+.ciu {
+  padding-top: 70%;
+  margin: 0px 0px 0px 20px;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff; }
+
+.tit {
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0px 0px 0px 20px;
+  color: #ffffff;
+  letter-spacing: 1.56px; }
+
+.subtit {
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px 0px 10px 20px;
+  color: #ffffff;
+  letter-spacing: 1.56px;
+  margin-top: -15px; }
+
+.subboton {
+  font-size: 11px;
+  color: #F9F5F3;
+  margin: 10px auto auto 20px;
+  background-color: #8033E8;
+  border: none;
+  border-radius: 13px;
+  padding: 0% 5%; }
+
+.subboton1 {
+  font-size: 11px;
+  color: #504741;
+  margin: 10px auto auto 20px;
+  background-color: #FCDA5F;
+  border: none;
+  border-radius: 13px;
+  padding: 0% 5%; }
+
+.hoverbox {
+  width: 236px;
+  height: 317px;
+  border-radius: 15px;
+  background-color: #008C44; }
+
+.ciu1 {
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #504741; }
+
+.first {
+  background-color: #E5E0DB;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px 15px 0px 0px;
+  padding: 3% 10% 3% 10%; }
+
+.hoverboton {
+  background: #008C44;
+  border: #FFFFFF 1px solid;
+  color: #ffffff;
+  border-radius: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 20%; }
+
+.flexboton {
+  display: flex;
+  justify-content: center; }
+
+.titu {
+  margin: 0;
+  font-family: roboto, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 0.79px; }
+
+.subtitu {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.79px; }
+
+.precio {
+  display: flex;
+  justify-content: space-between;
+  padding: 10%; }
