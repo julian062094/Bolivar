@@ -4,12 +4,6 @@ body {
     padding: 0;
   }
 
-$mycolor: blue;
-
-
-.prueba {
-    background-color:$mycolor;
-}
 
 .contc {
     display: grid;
@@ -38,13 +32,13 @@ $mycolor: blue;
 }
 .flecha {
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 90%;
 }
 .textoc {
     position: absolute;
-    top: 20%;
-    left: 16%;
+    top: 25%;
+    left: 17%;
     z-index: 1;
 }
 .subtextc {
@@ -52,8 +46,8 @@ $mycolor: blue;
     font-size: 1rem;
     font-family: roboto, sans-serif;
     font-weight: 400;
-    font-style: normal;
     z-index: 9999;
+    margin: 0 !important;
 }
 span {
     font-size: 16px;
@@ -68,9 +62,8 @@ span {
     color: #ffffff;
     font-family: roboto, sans-serif;
     font-weight: 400;
-    font-style: normal;
     text-align: left;
-    letter-spacing: NaNpx;
+    margin: 0 !important;
 }
 .igle {
     width: 100%;
@@ -106,7 +99,7 @@ span {
     z-index: 9999;
 }
 .ciudadc1 {
-    padding-top: 20px;
+    padding: 20px;
     margin: 0px 0px 0px 20px;
     font-size: 14px;
     top: 387px;
@@ -117,8 +110,8 @@ span {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    
     color: #504741;
+    border-bottom-radius: 15px;
 }
 .lugar {
     position: absolute;
@@ -135,8 +128,9 @@ span {
     border-bottom: 1px solid #D3CDC7;
     opacity: 1; 
     padding-bottom: 5%;
+    margin-bottom: 30px;
 }
-.precio {
+.preci {
     left: 5%;
     top: 70%;
     position: absolute;
@@ -145,24 +139,27 @@ span {
     font-weight: 700;
     font-style: normal;
     color: #504741;
+    z-index: 9999;
 }
 .usd {
     position: absolute;
-    top: 73%;
-    left: 75%;
+    top: 15%;
+    left: 110%;
     width: 46px;
     height: 30px;
 }
 .icons {
     position: absolute;
-    top: 28%;
-    left: 57%;
+    top: 33%;
+    left: 50%;
 }
 .ic {
     margin: 0px 5px 0px 5px;
 }
 .btnc3 {
+    margin-top: 20px;
     top: 90%;
+    font-size: 16px;
     position: absolute;
     background: #008C44;
     color: #ffffff;
@@ -183,10 +180,7 @@ span {
     box-shadow: 0px 20px 30px #00000026;
     border-radius: 15px;
     opacity: 1;
-    background-image: url(../images/component.png);
-    background-position-x: 165%;
     z-index: 2;
-    
 }
 .arro1 {
     position: absolute;
@@ -219,15 +213,22 @@ span {
     padding: 20px;
     vertical-align: middle; 
 }
+.proye {
+  margin: 0 !important;
+}
+.lanza {
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #008C44;
+  font-size: 18px;
+  margin: 0 !important;
+}
 .cali2 {
     position: absolute;
     top: 45%;
     left: 15%;
-    color: #008C44;
-    font-family: roboto, sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    font-style: normal;
+    margin: 0 !important;
 }
 .elipsec1 {
     z-index: 0;
@@ -235,13 +236,19 @@ span {
     left: -100%;
     position: absolute;
 }
-@media (min-width: 1281px) {
+@media (min-width: 1280px) {
+  .contenec2 {
+      display: none;
+  }
+ }
+@media (min-width: 1280px) {
    .contenec2 {
        display: none;
    }
   }
   
     
+  
   
   
   
@@ -253,7 +260,7 @@ span {
     
   }
 
-  @media (min-width: 768px) and (max-width: 1313px) {
+  @media (min-width: 768px) and (max-width: 1200px) {
     
     .contc {
         display: none;
@@ -343,7 +350,15 @@ span {
     .contc {
         display: none;
     }
-    
+        .titul1 {
+        z-index: 9999;
+        padding: 20px;
+        font-family: roboto, sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        font-style: normal;
+        color: #008C44;
+    }
   }
 
 
@@ -526,7 +541,7 @@ span {
     font-family: roboto, sans-serif;
     letter-spacing: 0.79px;
   }
-  .precioj{
+  .precioj1{
     display: flex;
     justify-content: space-between;
     padding: 10%;
@@ -593,6 +608,7 @@ span {
       font-size: 18px;
       width: 70%;
     }
+    
     
     .textContainer4-2-1 {
       padding: 5% 15% 5% 10%;
@@ -870,9 +886,12 @@ span {
       }
         
        }
+
+
+
 .hero2 {
   background: #F9F5F3;
-  height: 500px;
+  height: 800px;
 }
 .tit_hero2 {
   font-family: roboto, sans-serif;
@@ -888,15 +907,28 @@ span {
   font-style: normal;
   color: #504741;
 }
+
+.ciudades {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.conf1 {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
 .tabf1 {
+  padding: 27px 166.8px 38.97px 26px;
   position: absolute;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 20px 30px #00000026;
   border-radius: 15px;
   opacity: 1;
   top: 934px;
-  left: 657px;
-  width: 556px;
+  left: 610px;
+  width: 546px !important;
   height: 215px;
 }
 .titu_f2 {
@@ -914,8 +946,9 @@ span {
   color: #504741;
 }
 .lineasf1 {
-
-  width: 130px;
+  background: #ffffff !important;
+  border: none;
+  width: 200px;
   height: 40px;
   border-bottom: 1px solid #FCDA5F;
   opacity: 1;
@@ -924,4 +957,116 @@ span {
   font-weight: 300;
   font-style: normal;
   color: #504741;
+}
+
+
+#p_prop {
+  padding: 0;
+  display: flex;
+
+}
+
+#area {
+  padding: 0;
+  display: flex;
+}
+
+#button_hero2 {
+  top: 1250px;
+  color: #ffffff;
+  left: 946px;
+  width: 271px;
+  height: 48px;
+  position: absolute;
+  background: #008C44 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 30px;
+  opacity: 1;
+  border:none;
+  vertical-align: middle;
+}
+
+#precio_d {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#precio_h {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+#area_d {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#area_h {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#img_precio{
+  margin-left: 20px;
+}
+
+#img_area {
+  margin-left: 40px;
+}
+
+
+.tabf1 > h4 {
+  margin: 0 !important;
+  
+}
+.titf1 {
+  padding: 370px 0px 40px 150px;
+}
+.house {
+  position: absolute;
+  top: 125%;
+  left: 15%;
+}
+.titf2 {
+  display: flex;
+}
+
+#cityf1 {
+
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 854px;
+  left: 650px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+#cityf2 {
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 854px;
+  left: 972px;
+  width: 222px;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+}
+#sector {
+  padding: 6px;
+}
+.hide {
+  display: none;
 }
